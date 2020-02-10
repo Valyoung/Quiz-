@@ -1,0 +1,12 @@
+.btn:hover {
+    border-color: black;
+}
+
+.btn.correct {
+    --hue: var(--hue-correct);
+    color: black;
+}
+.btn.wrong {
+    --hue: var(--hue-wrong);
+}
+
